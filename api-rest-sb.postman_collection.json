@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "6680be83-d9bc-4981-92e8-2b8728ecde0b",
+		"name": "api-rest-sb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/hour",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"time\": \"18:31:45\",\n    \"timeZone\": \"-3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/hour",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"hour"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
